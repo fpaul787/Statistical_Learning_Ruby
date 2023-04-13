@@ -9,3 +9,11 @@ View(college)
 
 college <- college[, -1]
 View(college)
+
+# c
+
+# i. summarize
+summary(college)
+
+## ii. pairs
+pairs(college[ , 2:10])

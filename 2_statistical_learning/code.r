@@ -17,3 +17,10 @@ summary(college)
 
 ## ii. pairs
 pairs(college[ , 2:10])
+
+
+### iii. Use the plot() function to produce side-by-side boxplots of Outstate versus Private
+str(college)
+boxplot(college$Outstate ~ college$Private, col = c("orange", "green"), main = "Outstate versus Private", xlab = "Private", ylab = "Outstate")
+
+#### iv.
